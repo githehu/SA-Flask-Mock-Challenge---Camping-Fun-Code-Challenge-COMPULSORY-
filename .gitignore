@@ -1,0 +1,98 @@
+# Ignore the Python virtual environment folder
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+.env/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Pytest
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Flask instance folder
+instance/
+
+# Database
+*.sqlite3
+*.db
+app.db
+
+# Migrations
+migrations/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Secrets
+.env
+
+# Editor temporary files
+*~
+*.swp
+
+# Coverage reports
+coverage/
+
+# Python bytecode cache
+__pycache__/
+
+# celery beat schedule file
+celerybeat-schedule
+
+# local virtualenv from this repo
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# tox
+.tox/
+
+# pytest
+.pytest_cache/
